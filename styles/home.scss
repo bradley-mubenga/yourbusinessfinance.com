@@ -1,7 +1,27 @@
+$green: #51563F;
+$brown-opcaity: rgba(167, 116, 70, 0.44);
+$white: #FFFFFF;
+
 //HEADER
 .header
 {
     display: flex;
     justify-content: center;
     padding: 2vh 0 2vh 0;
+}
+//HERO SECTION
+.hero
+{
+    background-image: url('../images/hero.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 20vh;
+    padding: 0 5vw;
+    display: flex;
+    align-items: center;
+    div 
+    {
+        text-align: center;
+        color: $white;
+    }
 }
