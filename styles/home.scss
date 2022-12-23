@@ -1,7 +1,16 @@
 $green: #51563F;
 $brown-opcaity: rgba(167, 116, 70, 0.44);
 $white: #FFFFFF;
-
+//Global Fixes
+html
+{
+    overflow-x: hidden;
+}
+*
+{
+    margin: 0;
+    padding: 0;    
+}
 //HEADER
 .header
 {
@@ -15,13 +24,17 @@ $white: #FFFFFF;
     background-image: url('../images/hero.JPG');
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height: 20vh;
-    padding: 0 5vw;
+    background-size: cover;
+    background-position: center;
+    height: 50vh; //This is the max height for all viewports and is responsive, DON'T CHANGE. 
+    margin: 0;
     display: flex;
     align-items: center;
+    justify-content: center;
     div 
     {
         text-align: center;
         color: $white;
+        display: block;
     }
 }

@@ -12,7 +12,7 @@ export default function Header() {
                 src={logo} 
                 alt="kickstart-finance-logo" 
                 width={250}
-                className="logoImage"
+                className="logo"
             />
         </div>
     </header>

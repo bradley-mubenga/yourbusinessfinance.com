@@ -1,0 +1,45 @@
+// x-small devices (landscape phones, 575px and less)
+@media (max-width: 380px) 
+{
+    .logo 
+    {
+        width: 100px;
+        height: auto;
+    }
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 381px) 
+{
+    .logo 
+    {
+        width: 125px;
+        height: auto;
+    }
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) 
+{
+    .logo 
+    {
+        width: 150px;
+        height: auto;
+    }
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) 
+{
+    .logo 
+    {
+        width: 175px;
+        height: auto;
+    }
+}
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) 
+{
+    .logo 
+    {
+        width: 190px;
+        height: auto;
+    }
+}
