@@ -14,7 +14,11 @@
     {
         font-size: 8vw;
         font-weight: normal;
-    } 
+    }
+    .listItem
+    {
+        font-size: 4vw;
+    }
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 381px) 
@@ -32,7 +36,11 @@
     {
         font-size: 8vw;
         font-weight: normal;
-    } 
+    }
+    .listItem
+    {
+        font-size: 3.5vw;
+    }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) 
@@ -51,6 +59,10 @@
         font-size: 6vw;
         font-weight: normal;
     } 
+    .listItem
+    {
+        font-size: 2vw;
+    }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) 

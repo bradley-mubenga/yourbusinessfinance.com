@@ -58,9 +58,43 @@ html
     }
     .listContainer
     {
-        padding: 0 10vw 5vh 10vw;
+        padding: 0 10vw 2vh 10vw;
     }
     li {
         list-style-type: none;
+    }
+    .contactForm
+    {
+        background: brand.$brown-opcaity;
+        padding: 5vh 0;
+        div
+        {
+            padding-bottom: 2vh;
+        }
+        form 
+        {
+            display: flex;
+            justify-content: center;
+            span 
+            {
+                padding: 0 0.5vw;
+            }
+            input
+            {
+                border: brand.$green 2px solid;
+                padding: 1vh 2vw;
+            }
+            button
+            {
+                padding: 1vh 2vw;
+                background-color: brand.$green;
+                border: none;
+                color: white;
+            }
+            input:focus
+            {
+                border: none;
+            }
+        }
     }
 }

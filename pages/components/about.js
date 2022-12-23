@@ -12,13 +12,16 @@ export default function About() {
                     <li className='listItem'>3. How to understand your business financial needs and master financial forecasting and budgeting</li>
                 </ol>
             </div>
-            <div>
+            <div className='contactForm'>
+                <div>
+                    <p className='listItem'>Gain access to an exclusive live Q & A with Jasmina by signing up before the official launch.</p>
+                </div>
                 <form action="/send-data-here" method="post">
-                    <label for="first">Name</label>
-                    <input type="text" id="name" name="first" />
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" />
-                    <button type="submit">Submit</button>
+                    <input type="text" id="name" name="first" placeholder='Name'/>
+                    <span></span>
+                    <input type="email" id="email" name="email" placeholder='Email'/>
+                    <span></span>
+                    <button type="submit">Join Waiting LSist</button>
                 </form>
             </div>
         </div>
