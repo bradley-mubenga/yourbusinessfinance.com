@@ -1,8 +1,7 @@
 //STYLES
-import "../styles/responsive.scss";
 import "../styles/brand.scss";
 import "../styles/home.scss";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "../styles/responsive.scss";
 
 //
 function MyApp({ Component, pageProps }) {

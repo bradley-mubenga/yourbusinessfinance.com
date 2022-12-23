@@ -1,6 +1,5 @@
-$green: #51563F;
-$brown-opcaity: rgba(167, 116, 70, 0.44);
-$white: #FFFFFF;
+@use "./brand.scss";
+
 //Global Fixes
 html
 {
@@ -34,7 +33,34 @@ html
     div 
     {
         text-align: center;
-        color: $white;
+        color: brand.$white;
         display: block;
+        padding: 0 5vw;
+        .heading
+        {
+            font-weight: bold;
+        }
+    }
+}
+#about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container
+    {
+        padding: 5vh 5vw;
+        text-align: center;
+        h1 
+        {
+            color: brand.$green;
+        }
+    }
+    .listContainer
+    {
+        padding: 0 10vw 5vh 10vw;
+    }
+    li {
+        list-style-type: none;
     }
 }
