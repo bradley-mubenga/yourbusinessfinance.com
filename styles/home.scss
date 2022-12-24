@@ -58,7 +58,7 @@ html
     }
     .listContainer
     {
-        padding: 0 10vw 2vh 10vw;
+        padding: 0 10vw 5vh 10vw;
     }
     li {
         list-style-type: none;
@@ -70,6 +70,10 @@ html
         div
         {
             padding-bottom: 2vh;
+            .contactFormPText 
+            {
+                color: brand.$white;
+            }
         }
         form 
         {

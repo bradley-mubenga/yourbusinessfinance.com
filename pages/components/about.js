@@ -14,7 +14,7 @@ export default function About() {
             </div>
             <div className='contactForm'>
                 <div>
-                    <p className='listItem'>Gain access to an exclusive live Q & A with Jasmina by signing up before the official launch.</p>
+                    <p className='listItem contactFormPText'>Gain access to an exclusive live Q & A with Jasmina by signing up before the official launch.</p>
                 </div>
                 <form action="/send-data-here" method="post">
                     <input type="text" id="name" name="first" placeholder='Name'/>
