@@ -1,6 +1,7 @@
 @use "./brand.scss";
+
 // x-small devices (landscape phones, 575px and less)
-@media (max-width: 380px) 
+@media (max-width: 575px) 
 {
     .logo 
     {
@@ -24,31 +25,9 @@
     {
         padding: 5vh 5vw !important;
     }
-    form 
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        span 
-        {
-            padding: 0.5vh 0vw !important;
-        }
-        input
-        {
-            border: brand.$green 2px solid !important;
-            padding: 2vh 1vw !important;
-        }
-        button
-        {
-            padding: 2vh 1vw !important;
-            background-color: brand.$green;
-            border: none;
-            color: white;
-        }
-    }
 }
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 381px) 
+@media (min-width: 576px) 
 {
     .logo 
     {
@@ -72,28 +51,6 @@
     {
         padding: 5vh 5vw !important;
     }
-    form 
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        span 
-        {
-            padding: 0.5vh 0vw !important;
-        }
-        input
-        {
-            border: brand.$green 2px solid !important;
-            padding: 2vh 1vw !important;
-        }
-        button
-        {
-            padding: 2vh 1vw !important;
-            background-color: brand.$green;
-            border: none;
-            color: white;
-        }
-    }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) 
@@ -115,28 +72,6 @@
     .listItem
     {
         font-size: 2vw;
-    }
-    form 
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        span 
-        {
-            padding: 0.5vh 0vw !important;
-        }
-        input
-        {
-            border: brand.$green 2px solid !important;
-            padding: 2vh 1vw !important;
-        }
-        button
-        {
-            padding: 2vh 1vw !important;
-            background-color: brand.$green;
-            border: none;
-            color: white;
-        }
     }
 }
 // Large devices (desktops, 992px and up)
@@ -160,28 +95,6 @@
     {
         font-size: 1.5vw;
     }
-    form 
-    {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        span 
-        {
-            padding: 0.5vh 0vw !important;
-        }
-        input
-        {
-            border: brand.$green 2px solid !important;
-            padding: 2vh 1vw !important;
-        }
-        button
-        {
-            padding: 2vh 1vw !important;
-            background-color: brand.$green;
-            border: none;
-            color: white;
-        }
-    }
 }
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) 
@@ -193,6 +106,7 @@
     }
     .hero
     {
+        height: 60vh; //This is the max height for all viewports and is responsive, DON'T CHANGE. 
         div
         {
             padding: 0 15vw !important;
@@ -210,27 +124,5 @@
     .listItem
     {
         font-size: 1.5vw;
-    }
-        form 
-    {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        span 
-        {
-            padding: 0.5vh 0vw !important;
-        }
-        input
-        {
-            border: brand.$green 2px solid !important;
-            padding: 2vh 1vw !important;
-        }
-        button
-        {
-            padding: 2vh 1vw !important;
-            background-color: brand.$green;
-            border: none;
-            color: white;
-        }
     }
 }

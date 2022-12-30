@@ -10,6 +10,10 @@ html
     margin: 0;
     padding: 0;    
 }
+.container
+{
+    padding: 5vh 5vw;
+}
 //HEADER
 .header
 {
@@ -25,7 +29,7 @@ html
     background-size: 100% auto;
     background-size: cover;
     background-position: center;
-    height: 50vh; //This is the max height for all viewports and is responsive, DON'T CHANGE. 
+    height: 50vh;
     margin: 0;
     display: flex;
     align-items: center;
@@ -42,63 +46,4 @@ html
         }
     }
 }
-#about
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .container
-    {
-        padding: 5vh 5vw;
-        text-align: center;
-        h1 
-        {
-            color: brand.$green;
-        }
-    }
-    .listContainer
-    {
-        padding: 0 10vw 5vh 10vw;
-    }
-    li {
-        list-style-type: none;
-    }
-    .contactForm
-    {
-        background: brand.$brown-opcaity;
-        padding: 5vh 0;
-        div
-        {
-            padding-bottom: 2vh;
-            .contactFormPText 
-            {
-                color: brand.$white;
-            }
-        }
-        form 
-        {
-            display: flex;
-            justify-content: center;
-            span 
-            {
-                padding: 0 0.5vw;
-            }
-            input
-            {
-                border: brand.$green 2px solid;
-                padding: 1vh 2vw;
-            }
-            button
-            {
-                padding: 1vh 2vw;
-                background-color: brand.$green;
-                border: none;
-                color: white;
-            }
-            input:focus
-            {
-                border: none;
-            }
-        }
-    }
-}
+//ABOUT SECTION
