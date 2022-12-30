@@ -47,3 +47,66 @@ html
     }
 }
 //ABOUT SECTION
+.aboutContent
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .heading2
+    {
+        color: brand.$green;
+    }
+    ul 
+    {
+        padding: 2vh 0;
+        list-style-type: none;
+        text-align: center;
+        //Try to see if you can make the width the same as the header text
+        li 
+        {
+            padding: 0.45vh 0;
+        }
+    }
+}
+.aboutContactForm
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: brand.$brown-opcaity;
+    padding: 5vh 5vw;
+    text-align: center;
+    h3
+    {
+        color: brand.$white;
+    }
+    .emailSubForm
+    {
+        padding: 2vh 0;
+        form
+        {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap; ///FIUIRE OUT HOW THIS WORKS AND USE IT TO WRAP ITEMS 1X1X1 UNDER EACH OTHER.
+            justify-content: center;
+            input
+            {
+                padding: 1vh 1vw;
+                border: 1px solid brand.$green;
+            }
+            button
+            {
+                padding: 0 1vw;
+                background-color: brand.$green;
+                color: brand.$white;
+                border: none;
+            }
+            span 
+            {
+                padding: 0 1vw;
+            }
+        }
+    }
+}

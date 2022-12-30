@@ -14,16 +14,12 @@
     }
     .heading2
     {
-        font-size: 8vw;
+        font-size: 7vw;
         font-weight: normal;
     }
-    .listItem
+    li 
     {
         font-size: 4vw;
-    }
-    .contactForm
-    {
-        padding: 5vh 5vw !important;
     }
 }
 // Small devices (landscape phones, 576px and up)
@@ -40,16 +36,12 @@
     }
     .heading2
     {
-        font-size: 8vw;
+        font-size: 7vw;
         font-weight: normal;
     }
-    .listItem
+    li 
     {
-        font-size: 3.5vw;
-    }
-    .contactForm
-    {
-        padding: 5vh 5vw !important;
+        font-size: 2.5vw;
     }
 }
 // Medium devices (tablets, 768px and up)
@@ -66,10 +58,10 @@
     }
     .heading2
     {
-        font-size: 6vw;
+        font-size: 5vw;
         font-weight: normal;
-    } 
-    .listItem
+    }
+    li 
     {
         font-size: 2vw;
     }
@@ -88,10 +80,10 @@
     }
     .heading2
     {
-        font-size: 5vw;
+        font-size: 4vw;
         font-weight: normal;
     }
-    .listItem
+    li 
     {
         font-size: 1.5vw;
     }
@@ -106,7 +98,7 @@
     }
     .hero
     {
-        height: 60vh; //This is the max height for all viewports and is responsive, DON'T CHANGE. 
+        height: 60vh;
         div
         {
             padding: 0 15vw !important;
@@ -121,7 +113,7 @@
         font-size: 4vw;
         font-weight: normal;
     }
-    .listItem
+    li 
     {
         font-size: 1.5vw;
     }
