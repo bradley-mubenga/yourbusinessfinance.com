@@ -82,31 +82,4 @@ html
     {
         color: brand.$white;
     }
-    .emailSubForm
-    {
-        padding: 2vh 0;
-        form
-        {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap; ///FIUIRE OUT HOW THIS WORKS AND USE IT TO WRAP ITEMS 1X1X1 UNDER EACH OTHER.
-            justify-content: center;
-            input
-            {
-                padding: 1vh 1vw;
-                border: 1px solid brand.$green;
-            }
-            button
-            {
-                padding: 0 1vw;
-                background-color: brand.$green;
-                color: brand.$white;
-                border: none;
-            }
-            span 
-            {
-                padding: 0 1vw;
-            }
-        }
-    }
 }
