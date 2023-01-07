@@ -84,17 +84,47 @@ html
     }
 }
 //TESTIMONIALS
-.testimonialsContent
+#testimonials
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    div
+    background-color: brand.$grey;
+    .container
     {
-        h1 
+        text-align: center;
+        h1
         {
             color: brand.$green;
+        }
+        .testimonialContainer
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 3vh 0;
+            .clientImage
+            {
+                border-radius: 100%;
+            }
+            .testimonialText
+            {
+                h3 
+                {
+                    color: brand.$green;
+                    padding: 3vh 0 0 0;
+                }
+                p
+                {
+                    text-align: center;
+                    padding: 1.5vh 0 0 0;
+                }
+            }
+            .chevron
+            {
+                cursor: pointer;
+            }
         }
     }
 }

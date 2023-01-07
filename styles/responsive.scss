@@ -51,6 +51,27 @@
             }
         }
     }
+    .testimonialText
+    {
+        h3 
+        {
+            font-size: 5vw;
+        }
+        p
+        {
+            font-size: 4vw;
+        }
+    }
+    .clientImage
+    {
+        width: 150px;
+        height: 150px;
+    }
+    .chevron
+    {
+        width: 25px;
+        height: 25px;
+    }
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) 
@@ -103,6 +124,27 @@
             }
         }
     }
+    .testimonialText
+    {
+        h3 
+        {
+            font-size: 5vw;
+        }
+        p
+        {
+            font-size: 3.5vw;
+        }
+    }
+    .clientImage
+    {
+        width: 175px;
+        height: 175px;
+    }
+    .chevron
+    {
+        width: 35px;
+        height: 35px;
+    }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) 
@@ -123,7 +165,7 @@
     }
     li 
     {
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
     .aboutContactForm
     {
@@ -155,6 +197,27 @@
             }
         }
     }
+    .testimonialText
+    {
+        h3 
+        {
+            font-size: 5vw;
+        }
+        p
+        {
+            font-size: 3vw;
+        }
+    }
+    .clientImage
+    {
+        width: 185px;
+        height: 185px;
+    }
+    .chevron
+    {
+        width: 35px;
+        height: 35px;
+    }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) 
@@ -175,7 +238,7 @@
     }
     li 
     {
-        font-size: 1.5vw;
+        font-size: 1.7vw;
     }
     .aboutContactForm
     {
@@ -205,6 +268,28 @@
                 }
             }
         }
+    }
+    .testimonialText
+    {
+        h3 
+        {
+            font-size: 3vw;
+        }
+        p
+        {
+            font-size: 1.6vw;
+            padding: 0 10vw !important;
+        }
+    }
+    .clientImage
+    {
+        width: 175px;
+        height: 175px;
+    }
+    .chevron
+    {
+        width: 35px;
+        height: 35px;
     }
 }
 // X-Large devices (large desktops, 1200px and up)
@@ -264,5 +349,27 @@
                 }
             }
         }
+    }
+    .testimonialText
+    {
+        h3 
+        {
+            font-size: 2.5vw;
+        }
+        p
+        {
+            font-size: 1.5vw;
+            padding: 0 10vw !important;
+        }
+    }
+    .clientImage
+    {
+        width: 175px;
+        height: 175px;
+    }
+    .chevron
+    {
+        width: 35px;
+        height: 35px;
     }
 }

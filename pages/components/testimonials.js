@@ -1,36 +1,69 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 //
 import left_chevron from "../../images/left.png";
 import right_chevron from "../../images/right.png";
-
+//
+import TestimonialSlider from './testimonialSlider';
+//
 export default function Testimonials() {
+  const [testimonialData, setTestimonialData] = useState([]);
+  const [clientIndex, setClientIndex] = useState(0)
+
+  async function getTestimonialData() {
+    const response = await fetch(`${window.location.origin}/api/feedback`);
+    setTestimonialData(await response.json());
+  }
+
+  useEffect(() => {
+    getTestimonialData();
+  },[]);
+
+  if(!testimonialData) {
+    return console.log("No data")
+  }
+
+  function moveLeft()
+  {
+    if (clientIndex === 0)
+    {
+      setClientIndex(testimonialData.length - 1)
+    }
+    else
+    {
+      setClientIndex(clientIndex - 1);
+    }
+  }
+
+  function moveRight()
+  {
+    if (clientIndex === testimonialData.length - 1)
+    {
+      setClientIndex(0)
+    }
+    else
+    {
+      setClientIndex(clientIndex + 1)
+    }
+  }
+
   return (
     <section id='testimonials'>
-        <div className='container testimonialsContent'>
-            <div>
-                <h1 className='heading2'>Testimonials</h1>
-            </div>
-            <div>
-                <Image
-                src={left_chevron} 
-                />
-                <div>
-                    <Image 
-                    src={left_chevron} 
-                    alt="client-headshot" 
-                    width={250}
-                    className="logo"
-                    />
-                    <div>
-                        <p>Starting a new business can be overwhelming and when it comes to finances there's a lot to learn. Jasmina has an amazing ability to speak on your level and make financial management achievable for anyone. KickStart not only took the pressure off but taught and equipped me to get the best out of my financial management. </p>
-                    </div>
-                </div>
-                <Image
-                src={right_chevron} 
-                />
-            </div>
+      <div className='container'>
+        <h1 className='heading2'>Testimonials</h1>
+        <div className='testimonialContainer'>
+          <div>
+              <Image src={left_chevron} width="50" alt='left chevron' className='chevron' onClick={moveLeft}/>
+          </div>
+          <div>
+            <TestimonialSlider data={testimonialData[clientIndex]}/>
+          </div>
+          <div>
+              <Image src={right_chevron} width="50" alt='left chevron'className='chevron' onClick={moveRight}/>
+          </div>
         </div>
+      </div>
     </section>
   )
 }
