@@ -44,6 +44,9 @@ export default function Footer() {
                     </li>
                 </ul>
             </div>
+            <div className='copyrightText'>
+                <p>KickStart Finances © {new Date().getFullYear()}</p>
+            </div>
         </div>
     </footer>
   )
