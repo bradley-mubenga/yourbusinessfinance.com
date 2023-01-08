@@ -128,3 +128,25 @@ html
         }
     }
 }
+//FOOTER
+.footerContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .imageLinks
+    {
+        padding: 3vh 0 0 0;
+        .imageLinksIcons
+        {
+            display: flex;
+            li
+            {
+                list-style-type: none;
+                padding: 0 1vw;
+                cursor: pointer;
+            }
+        }
+    }
+}
