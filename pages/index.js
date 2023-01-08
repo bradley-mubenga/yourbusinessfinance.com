@@ -11,7 +11,10 @@ export default function Home() {
     <main>
       <Head>
         <title>KickStart Finance and Business Coaching</title>
-        <meta>Learn about the biggest mistakes business owners make with their business finances, to set up and manage your business accounting quickly and efficiently and how to understand your business financial needs and master financial forecasting and budgeting. Sign up now!</meta>
+        <meta
+          name="description"
+          content="Learn about the biggest mistakes business owners make with their business finances, to set up and manage your business accounting quickly and efficiently and how to understand your business financial needs and master financial forecasting and budgeting. Sign up now!"
+        />
       </Head>
       <Header/>
       <Hero />
