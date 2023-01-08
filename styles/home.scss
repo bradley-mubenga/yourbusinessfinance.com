@@ -10,6 +10,10 @@ html
     margin: 0;
     padding: 0;    
 }
+a
+{
+    color: brand.$green;
+}
 .container
 {
     padding: 2.5vh 5vw;
