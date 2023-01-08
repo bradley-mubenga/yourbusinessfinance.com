@@ -19,27 +19,27 @@ export default function Footer() {
                 <ul className='imageLinksIcons'>
                     <li>
                         <a href='https://www.instagram.com/KickstartYourBuisinessFinance/'>
-                            <Image src={instagram} width={30} height={30}/>
+                            <Image src={instagram} width={30} height={30} alt="instagram-tiny-icon"/>
                         </a>
                     </li>
                     <li>
                         <a href='https://www.youtube.com/channel/UCD-IWvnZWmLsemcG6apWMUw'>
-                            <Image src={youtube} width={30} height={30}/>
+                            <Image src={youtube} width={30} height={30} alt="youtube-tiny-icon"/>
                         </a>
                     </li>
                     <li>
                         <a href='https://www.facebook.com/KickStartYourBuisinessFinance/'>
-                            <Image src={facebook} width={30} height={30}/>
+                            <Image src={facebook} width={30} height={30} alt="facebook-tiny-icon"/>
                         </a>
                     </li>
                     <li>
                         <a href='https://www.linkedin.com/company/kickstart-your-buisiness-finance/'>
-                            <Image src={linkedin} width={30} height={30}/>
+                            <Image src={linkedin} width={30} height={30} alt="linkedin-tiny-icon"/>
                         </a>
                     </li>
                     <li>
                         <a href='https://www.buzzsprout.com/2050421/episodes'>
-                            <Image src={podcast} width={30} height={30}/>
+                            <Image src={podcast} width={30} height={30} alt="podcast-tiny-icon"/>
                         </a>
                     </li>
                 </ul>
