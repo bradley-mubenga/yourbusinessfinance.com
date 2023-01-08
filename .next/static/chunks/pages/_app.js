@@ -154,7 +154,7 @@ eval(__webpack_require__.ts("\n\nif (false) {} else {\n  module.exports = __webp
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
-module.exports = __webpack_require__.p + "static/media/hero.e975e0d3.JPG";
+module.exports = __webpack_require__.p + "static/media/hero.ffcde412.JPG";
 
 /***/ })
 
