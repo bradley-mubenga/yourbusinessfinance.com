@@ -7,7 +7,7 @@ export default function About() {
             <div className='aboutContent'>
                 <h1 className='heading2'>In This Course You'll Learn</h1>
                 <ul>
-                    <li>1. Bigest mistakes business owners make with their business finances!</li>
+                    <li>1. Biggest mistakes business owners make with their business finances!</li>
                     <li>2. How to set up and manage your business accounting quickly and efficiently.</li>
                     <li>3. How to understand your business financial needs and master financial forecasting and budgeting.</li>
                 </ul>
