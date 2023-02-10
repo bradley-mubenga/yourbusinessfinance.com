@@ -19,6 +19,12 @@ export default function handler(req, res)
                 name: "Luke",
                 company: "McG Property",
                 feedback: "One of the most empowering or debilitating tools in business is its financial management. At McG Property we have been empowered by the support of KickStart and direct coaching with Jasmina. Good financial management has been a game changer and opened so many doors for my company."
+            },
+            {
+                src: "https://ik.imagekit.io/yrdximse9a/kickstart/ben_abel?ik-sdk-version=javascript-1.4.3&updatedAt=1676031006118",
+                name: "Ben Abel",
+                company: "BMA Media",
+                feedback: "Jasmina has been an exceptional help to me and my digital marketing business. There were so many different factors & aspects to consider & she makes the whole decision making process simple, easy & clear. I would be in a tough spot if it wasn’t for her continual friendly & expert advice."
             }
         ]);
 }

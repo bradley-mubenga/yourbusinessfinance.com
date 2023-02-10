@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #51563F;
+}
+
+input {
+  padding: 2vh 1vw;
+}
+
+.container {
+  padding: 2.5vh 5vw;
+}
+
+.buttonBox {
+  padding: 2vh 0 !important;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 2vh 0 2vh 0;
+}
+
+.hero {
+  background-image: url("https://ik.imagekit.io/yrdximse9a/kickstart/hero.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1676045360551");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero div {
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+  padding: 0 5vw;
+}
+.hero div .heading {
+  font-weight: bold;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.aboutContent .heading2 {
+  color: #51563F;
+}
+.aboutContent ul {
+  padding: 2vh 0;
+  list-style-type: none;
+  text-align: center;
+}
+.aboutContent ul li {
+  padding: 0.45vh 0;
+}
+
+#aboutMeSection {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 2.5vh 5vw;
+  grid-gap: 2vw;
+}
+#aboutMeSection div h2 {
+  color: #51563F;
+}
+#aboutMeSection div ul {
+  list-style-type: none;
+}
+#aboutMeSection div ul li {
+  padding: 0.45vh 0;
+}
+#aboutMeSection div p {
+  color: #51563F;
+}
+
+#testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #D9D9D9;
+}
+#testimonials .container {
+  text-align: center;
+}
+#testimonials .container h1 {
+  color: #51563F;
+}
+#testimonials .container .testimonialContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vh 0;
+}
+#testimonials .container .testimonialContainer .clientImage {
+  border-radius: 100%;
+}
+#testimonials .container .testimonialContainer .testimonialText h3 {
+  color: #51563F;
+  padding: 3vh 0 0 0;
+}
+#testimonials .container .testimonialContainer .testimonialText p {
+  text-align: center;
+  padding: 1.5vh 0 0 0;
+}
+#testimonials .container .testimonialContainer .chevron {
+  cursor: pointer;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footerContainer .imageLinks {
+  padding: 3vh 0 0 0;
+}
+.footerContainer .imageLinks .imageLinksIcons {
+  display: flex;
+}
+.footerContainer .imageLinks .imageLinksIcons li {
+  list-style-type: none;
+  padding: 0 1vw;
+  cursor: pointer;
+}
+.footerContainer .copyrightText {
+  padding: 2vh 0 0 0;
+}
+.footerContainer .copyrightText p {
+  font-size: 1em;
+}
+
+.contactHero {
+  background-image: url("https://ik.imagekit.io/yrdximse9a/kickstart/contact_background_image.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1676045312076");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactHero div {
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+  padding: 0 5vw;
+}
+.contactHero div .heading {
+  font-weight: bold;
+}
+
+.formSection {
+  padding: 5vh 15vw;
+}
+.formSection ul li {
+  list-style-type: none;
+  color: #51563F;
+}
+.formSection span {
+  padding: 0 2vw;
+}
+.formSection h2 {
+  color: #51563F;
+}
+.formSection .contactForm .contactSubmitForm {
+  display: flex;
+  flex-direction: column;
+}
+.formSection .contactForm .contactSubmitForm span {
+  padding: 2vh 0;
+}
+.formSection .contactForm .contactSubmitForm .checkBox {
+  display: flex;
+  flex-direction: column;
+}
+.formSection .contactForm .contactSubmitForm .firstAndLast {
+  display: flex;
+}
+.formSection .contactForm .contactSubmitForm .firstAndLast input {
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.15);
+  border: solid 0.5px #51563F;
+}
+.formSection .contactForm .contactSubmitForm .firstAndLast span {
+  padding: 0 2vw;
+}
+.formSection .contactForm .contactSubmitForm input {
+  background-color: rgba(128, 128, 128, 0.15);
+  border: solid 0.5px #51563F;
+}
+.formSection .contactForm .contactSubmitForm textarea {
+  background-color: rgba(128, 128, 128, 0.15);
+  border: solid 0.5px #51563F;
+}
+
+@media (max-width: 575px) {
+  .formSection .contactForm .contactSubmitForm .firstAndLast {
+    display: flex;
+    flex-direction: column;
+  }
+  .formSection .contactForm .contactSubmitForm .firstAndLast input {
+    width: 100%;
+  }
+  .formSection .contactForm .contactSubmitForm .firstAndLast span {
+    padding: 2vh 0;
+  }
+  .formSection .contactForm .contactSubmitForm input#email {
+    width: 100%;
+  }
+  .formSection .contactForm .contactSubmitForm textarea#message {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .formSection {
+    padding: 5vh 25vw;
+  }
+}/*# sourceMappingURL=home.css.map */

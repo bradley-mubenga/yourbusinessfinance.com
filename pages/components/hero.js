@@ -5,7 +5,10 @@ export default function Hero() {
   return (
     <section className='hero'>
         <div>
-            <h1 className='heading'>Master Your Business Finances Coaching Course</h1>
+            <h1 className='heading'>'KICKSTART YOUR BUSINESS FINANCES' Course</h1>
+            <div className='buttonBox'>
+              <a href="/contact" className='heroButton' type='button'>Contact us</a>
+            </div>
         </div>
     </section>
   )

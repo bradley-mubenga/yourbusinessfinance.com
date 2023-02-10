@@ -45,7 +45,7 @@ export default function Footer() {
                 </ul>
             </div>
             <div className='copyrightText'>
-                <p>KickStart Finances © {new Date().getFullYear()}. Web design by <a href='https://creativebradley.com'>Creative Bradley</a></p>
+                <p>KickStart Your Business Finances © {new Date().getFullYear()}. Web design by <a href='https://creativebradley.com'>Creative Bradley</a></p>
             </div>
         </div>
     </footer>

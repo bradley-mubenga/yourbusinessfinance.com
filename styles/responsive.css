@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.responsiveImage {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 575px) {
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  .heading {
+    font-size: 10vw;
+  }
+  a.heroButton {
+    padding: 2vh 2vw;
+    background-color: #51563F;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+  }
+  .heading2 {
+    font-size: 7vw;
+    font-weight: normal;
+  }
+  li {
+    font-size: 4vw;
+  }
+  .aboutContactForm .emailSubForm {
+    width: 80%;
+    padding: 2vh 0 0 0;
+  }
+  .aboutContactForm .emailSubForm form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .aboutContactForm .emailSubForm form input {
+    padding: 1vh 1vw;
+    border: 1px solid #51563F;
+  }
+  .aboutContactForm .emailSubForm form a {
+    padding: 1vh 0;
+    background-color: #51563F;
+    color: #FFFFFF;
+    border: none;
+  }
+  .aboutContactForm .emailSubForm form span {
+    padding: 0.5vh 0;
+  }
+  #aboutMeSection {
+    grid-template-columns: 100%;
+  }
+  .testimonialText h3 {
+    font-size: 5vw;
+  }
+  .testimonialText p {
+    font-size: 4vw;
+  }
+  .clientImage {
+    width: 150px;
+    height: 150px;
+  }
+  .chevron {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media (min-width: 576px) {
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  .heading {
+    font-size: 9vw;
+  }
+  a.heroButton {
+    padding: 2vh 2vw;
+    background-color: #51563F;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+  }
+  .heading2 {
+    font-size: 7vw;
+    font-weight: normal;
+  }
+  li {
+    font-size: 2.5vw;
+  }
+  .aboutContactForm .emailSubForm {
+    width: 80%;
+    padding: 2vh 0 0 0;
+  }
+  .aboutContactForm .emailSubForm form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .aboutContactForm .emailSubForm form input {
+    padding: 1vh 1vw;
+    border: 1px solid #51563F;
+  }
+  .aboutContactForm .emailSubForm form button {
+    padding: 1vh 0;
+    background-color: #51563F;
+    color: #FFFFFF;
+    border: none;
+  }
+  .aboutContactForm .emailSubForm form span {
+    padding: 0.5vh 0;
+  }
+  #aboutMeSection {
+    grid-template-columns: 100%;
+  }
+  .testimonialText h3 {
+    font-size: 5vw;
+  }
+  .testimonialText p {
+    font-size: 3.5vw;
+  }
+  .clientImage {
+    width: 175px;
+    height: 175px;
+  }
+  .chevron {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media (min-width: 768px) {
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  a.heroButton {
+    padding: 2vh 2vw;
+    background-color: #51563F;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+  }
+  .heading {
+    font-size: 8vw;
+  }
+  .heading2 {
+    font-size: 5vw;
+    font-weight: normal;
+  }
+  li {
+    font-size: 2.5vw;
+  }
+  .aboutContactForm .emailSubForm {
+    width: 80%;
+    padding: 2vh 0 0 0;
+  }
+  .aboutContactForm .emailSubForm form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .aboutContactForm .emailSubForm form input {
+    padding: 1vh 1vw;
+    border: 1px solid #51563F;
+  }
+  .aboutContactForm .emailSubForm form button {
+    padding: 1vh 0;
+    background-color: #51563F;
+    color: #FFFFFF;
+    border: none;
+  }
+  .aboutContactForm .emailSubForm form span {
+    padding: 0.5vh 0;
+  }
+  #aboutMeSection {
+    grid-template-columns: 100%;
+  }
+  .testimonialText h3 {
+    font-size: 5vw;
+  }
+  .testimonialText p {
+    font-size: 3vw;
+  }
+  .clientImage {
+    width: 185px;
+    height: 185px;
+  }
+  .chevron {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media (min-width: 992px) {
+  .logo {
+    width: 175px;
+    height: auto;
+  }
+  a.heroButton {
+    padding: 2vh 2vw;
+    background-color: #51563F;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+  }
+  .heading {
+    font-size: 7vw;
+  }
+  .heading2 {
+    font-size: 4vw;
+    font-weight: normal;
+  }
+  li {
+    font-size: 1.7vw;
+  }
+  .aboutContactForm .emailSubForm {
+    padding: 2vh 0 0 0;
+  }
+  .aboutContactForm .emailSubForm form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .aboutContactForm .emailSubForm form input {
+    padding: 1vh 1vw;
+    border: 1px solid #51563F;
+  }
+  .aboutContactForm .emailSubForm form button {
+    padding: 0 1vw;
+    background-color: #51563F;
+    color: #FFFFFF;
+    border: none;
+  }
+  .aboutContactForm .emailSubForm form span {
+    padding: 0 1vw;
+  }
+  #aboutMeSection {
+    grid-template-columns: 50% 50%;
+  }
+  .testimonialText h3 {
+    font-size: 3vw;
+  }
+  .testimonialText p {
+    font-size: 1.6vw;
+    padding: 0 10vw !important;
+  }
+  .clientImage {
+    width: 175px;
+    height: 175px;
+  }
+  .chevron {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media (min-width: 1200px) {
+  .logo {
+    width: 190px;
+    height: auto;
+  }
+  .hero {
+    height: 60vh;
+  }
+  .hero div {
+    padding: 0 15vw !important;
+  }
+  .hero .heading {
+    font-size: 6vw;
+  }
+  .hero a.heroButton {
+    padding: 2vh 2vw;
+    background-color: #51563F;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+  }
+  .heading2 {
+    font-size: 4vw;
+    font-weight: normal;
+  }
+  li {
+    font-size: 1.5vw;
+  }
+  .aboutContactForm .emailSubForm {
+    padding: 2vh 0 0 0;
+  }
+  .aboutContactForm .emailSubForm form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .aboutContactForm .emailSubForm form input {
+    padding: 1vh 1vw;
+    border: 1px solid #51563F;
+  }
+  .aboutContactForm .emailSubForm form button {
+    padding: 0 1vw;
+    background-color: #51563F;
+    color: #FFFFFF;
+    border: none;
+  }
+  .aboutContactForm .emailSubForm form span {
+    padding: 0 1vw;
+  }
+  #aboutMeSection {
+    grid-template-columns: 50% 50%;
+  }
+  .testimonialText h3 {
+    font-size: 2.5vw;
+  }
+  .testimonialText p {
+    font-size: 1.5vw;
+    padding: 0 10vw !important;
+  }
+  .clientImage {
+    width: 175px;
+    height: 175px;
+  }
+  .chevron {
+    width: 35px;
+    height: 35px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

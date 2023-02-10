@@ -14,10 +14,19 @@ a
 {
     color: brand.$green;
 }
+input
+{
+    padding: 2vh 1vw;
+}
 .container
 {
     padding: 2.5vh 5vw;
 }
+.buttonBox
+{
+    padding: 2vh 0 !important;
+}
+
 //HEADER
 .header
 {
@@ -28,7 +37,7 @@ a
 //HERO SECTION
 .hero
 {
-    background-image: url('../images/hero.webp');
+    background-image: url('https://ik.imagekit.io/yrdximse9a/kickstart/hero.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1676045360551');
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-size: cover;
@@ -57,6 +66,7 @@ a
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     .heading2
     {
         color: brand.$green;
@@ -73,20 +83,34 @@ a
         }
     }
 }
-.aboutContactForm
+//ABOUT ME SECTION
+#aboutMeSection
 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: brand.$brown-opcaity;
-    padding: 5vh 5vw;
-    text-align: center;
-    h3
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 2.5vh 5vw;
+    grid-gap: 2vw;
+    div
     {
-        color: brand.$white;
+        h2
+        {
+            color: brand.$green;
+        }
+        ul
+        {
+            list-style-type: none;
+            li 
+            {
+                padding: 0.45vh 0;
+            }
+        }
+        p
+        {
+            color: brand.$green;
+        }
     }
 }
+
 //TESTIMONIALS
 #testimonials
 {
@@ -160,5 +184,131 @@ a
         {
             font-size: 1em;
         }
+    }
+}
+//CONTACT PAGE
+.contactHero
+{
+    background-image: url('https://ik.imagekit.io/yrdximse9a/kickstart/contact_background_image.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1676045312076');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div 
+    {
+        text-align: center;
+        color: brand.$white;
+        display: block;
+        padding: 0 5vw;
+        .heading
+        {
+            font-weight: bold;
+        }
+    }
+}
+.formSection
+{
+    ul
+    {
+        li
+        {
+            list-style-type: none;
+            color: brand.$green;
+        }
+    }
+    padding: 5vh 15vw;
+    span
+    {
+        padding: 0 2vw;
+    }
+    h2
+    {
+        color: brand.$green;
+    }
+    .contactForm
+    {
+        .contactSubmitForm
+        {
+            display: flex;
+            flex-direction: column;
+            span
+            {
+                padding: 2vh 0;
+            }
+            .checkBox
+            {
+                display: flex;
+                flex-direction: column;
+            }
+            .firstAndLast
+            {
+                display: flex;
+                input
+                {
+                    width: 100%;
+                    background-color: rgba(128, 128, 128, 0.15);
+                    border: solid 0.5px brand.$green;
+                }
+                span
+                {
+                    padding: 0 2vw;
+                }
+            }
+            input
+            {
+                background-color: rgba(128, 128, 128, 0.15);
+                border: solid 0.5px brand.$green;
+            }
+            textarea
+            {
+                background-color: rgba(128, 128, 128, 0.15);
+                border: solid 0.5px brand.$green;
+            }
+        }
+    }
+}
+@media (max-width: 575px)
+{
+    .formSection
+    {
+        .contactForm
+        {
+            .contactSubmitForm
+            {
+                .firstAndLast
+                {
+                    display: flex;
+                    flex-direction: column;
+                    input
+                    {
+                        width: 100%;
+                    }
+                    span
+                    {
+                        padding: 2vh 0;
+                    }
+                }
+                input#email
+                {
+                    width: 100%;
+                }
+                textarea#message
+                {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1200px)
+{
+    .formSection
+    {
+        padding: 5vh 25vw;
     }
 }

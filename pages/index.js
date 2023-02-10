@@ -2,9 +2,10 @@
 import Header from "./components/header";
 import Hero from "./components/hero";
 import About from "./components/about";
+import About_Me from "./components/about_me";
 import Testimonials from "./components/testimonials";
 import Footer from "./components/footer";
-import Head from 'next/head'
+import Head from 'next/head';
 //
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Header/>
       <Hero />
       <About />
+      <About_Me />
       <Testimonials />
       <Footer /> 
     </main>
