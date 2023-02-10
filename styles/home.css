@@ -54,6 +54,7 @@ input {
 }
 .hero div .heading {
   font-weight: bold;
+  padding-bottom: 2vh;
 }
 
 .aboutContent {
