@@ -20,11 +20,7 @@ input
 }
 .container
 {
-    padding: 2.5vh 5vw;
-}
-.buttonBox
-{
-    padding: 2vh 0 !important;
+    padding: 7vh 5vw;
 }
 
 //HEADER
@@ -74,13 +70,15 @@ input
     }
     ul 
     {
-        padding: 2vh 0;
+        padding: 2vh 2em;
         list-style-type: none;
-        text-align: center;
+        text-align: left;
         //Try to see if you can make the width the same as the header text
         li 
         {
             padding: 0.45vh 0;
+            font-weight: 20;
+            color: black;
         }
     }
 }

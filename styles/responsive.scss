@@ -1,10 +1,25 @@
 @use "./brand.scss";
-
+//Global Responsive Classes
 .responsiveImage
 {
     width: 100%;
     height: auto;
 }
+.heading
+{
+    line-height: 1.115em;
+}
+.hero
+{
+    div
+    {
+        .buttonBox
+        {
+            padding-top: 1em !important;
+        }
+    }
+}
+
 
 // x-small devices (landscape phones, 575px and less)
 @media (max-width: 575px) 
@@ -14,9 +29,17 @@
         width: 150px;
         height: auto;
     }
+    .hero
+    {
+        height: 75vh;
+        div
+        {
+            padding: 0 5vw !important;
+        }
+    }
     .heading
     {
-        font-size: 10vw;
+        font-size: 9vw;
     }
     a.heroButton
     {
@@ -28,7 +51,7 @@
     }
     .heading2
     {
-        font-size: 7vw;
+        font-size: 4.5vw;
         font-weight: normal;
     }
     li 
@@ -99,9 +122,17 @@
         width: 150px;
         height: auto;
     }
+    .hero
+    {
+        height: 75vh;
+        div
+        {
+            padding: 0 5vw !important;
+        }
+    }
     .heading
     {
-        font-size: 9vw;
+        font-size: 8vw;
     }
     a.heroButton
     {
@@ -113,7 +144,7 @@
     }
     .heading2
     {
-        font-size: 7vw;
+        font-size: 4vw;
         font-weight: normal;
     }
     li 
@@ -184,6 +215,14 @@
         width: 150px;
         height: auto;
     }
+    .hero
+    {
+        height: 75vh;
+        div
+        {
+            padding: 0 10vw !important;
+        }
+    }
     a.heroButton
     {
         padding: 2vh 2vw;
@@ -194,11 +233,11 @@
     }
     .heading
     {
-        font-size: 8vw;
+        font-size: 7vw;
     }
     .heading2
     {
-        font-size: 5vw;
+        font-size: 3.5vw;
         font-weight: normal;
     }
     li 
@@ -269,6 +308,14 @@
         width: 175px;
         height: auto;
     }
+    .hero
+    {
+        height: 75vh;
+        div
+        {
+            padding: 0 2vw !important;
+        }
+    }
     a.heroButton
     {
         padding: 2vh 2vw;
@@ -279,11 +326,11 @@
     }
     .heading
     {
-        font-size: 7vw;
+        font-size: 6vw;
     }
     .heading2
     {
-        font-size: 4vw;
+        font-size: 3vw;
         font-weight: normal;
     }
     li 
@@ -356,10 +403,10 @@
     }
     .hero
     {
-        height: 60vh;
+        height: 75vh;
         div
         {
-            padding: 0 15vw !important;
+            padding: 0 0vw !important;
         }
         .heading
         {
@@ -376,7 +423,7 @@
     }
     .heading2
     {
-        font-size: 4vw;
+        font-size: 3vw;
         font-weight: normal;
     }
     li 

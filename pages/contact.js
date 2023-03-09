@@ -22,7 +22,7 @@ export default function Contact() {
     <section className='formSection'>
         <h2 className='heading2'>Contact</h2>
         <ul>
-            <li>Email: <a href='mailto:info@yourbusinessfinances.com'>info@yourbusinessfinances.com</a> or contact us by filling out the form below...</li>
+            <li>Email: <a href='mailto:info@yourbusinessfinances.com'>info@yourbusinessfinance.com</a> or contact us by filling out the form below...</li>
         </ul>
         <span></span>
         <div className='contactForm'>
@@ -44,7 +44,7 @@ export default function Contact() {
                 <div className='checkBox'>
                     <div>
                         <input type="checkbox" id="vehicle1" name="vehicle1" value="Register for our 'Kickstart Your Business Finances' course" />
-                        <label for="vehicle1"> Register for our 'Kickstart Your Business Finances' course</label>
+                        <label for="vehicle1"> Register for our 'Kickstart Your Business Finance' course</label>
                     </div>
                     <div>
                         <input type="checkbox" id="vehicle2" name="vehicle2" value="Sign up for a free introductory Coaching session" />
