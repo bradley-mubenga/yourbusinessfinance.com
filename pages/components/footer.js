@@ -37,11 +37,6 @@ export default function Footer() {
                             <Image src={linkedin} width={30} height={30} alt="linkedin-tiny-icon"/>
                         </a>
                     </li>
-                    <li>
-                        <a href='https://www.buzzsprout.com/2050421/episodes'>
-                            <Image src={podcast} width={30} height={30} alt="podcast-tiny-icon"/>
-                        </a>
-                    </li>
                 </ul>
             </div>
             <div className='copyrightText'>

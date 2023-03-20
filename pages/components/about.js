@@ -11,7 +11,7 @@ export default function About() {
                     <li>2. HOW TO DO YOUR OWN BOOKKEEPING AND ADMINISTRATION IN A WAY THAT GIVES YOU GREAT VISIBILITY ON YOUR BUSINESS FINANCES AND MAKES YOU TAX-READY WITHOUT THE STRESS.</li>
                     <li>3. THE 5 BIGGEST FINANCIAL MANAGEMENT MISTAKES AND HOW TO AVOID THEM.</li>
                     <br></br>
-                    <li>FOR MORE INFORMATION OR TO SIGN UP, MESSAGE US VIA OUR <a href="/contact">CONTACT PAGE.</a></li>
+                    <li className='centerLI'>FOR MORE INFORMATION OR TO SIGN UP, MESSAGE US VIA OUR <a href="/contact">CONTACT PAGE.</a></li>
                 </ul>
             </div>
 

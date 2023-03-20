@@ -80,13 +80,17 @@ input
             font-weight: 100;
             color: black;
         }
+        li.centerLI
+        {
+            text-align: center;
+        }
     }
 }
 //ABOUT ME SECTION
 #aboutMeSection
 {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     padding: 2.5vh 5vw;
     grid-gap: 2vw;
     div
@@ -101,7 +105,8 @@ input
             li 
             {
                 padding: 0.45vh 0;
-                font-weight: 200;
+                font-weight: 100;
+                text-align: justify;
             }
         }
         p
