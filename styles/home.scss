@@ -20,7 +20,7 @@ input
 }
 .container
 {
-    padding: 7vh 5vw;
+    padding: 7vh 10%;
 }
 
 //HEADER
@@ -43,6 +43,7 @@ input
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2.5vh 10%;
     div 
     {
         text-align: center;
@@ -91,8 +92,9 @@ input
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 2.5vh 5vw;
+    padding: 2.5vh 10%;
     grid-gap: 2vw;
+    align-items: center;
     div
     {
         h2

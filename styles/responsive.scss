@@ -32,10 +32,7 @@
     .hero
     {
         height: 75vh;
-        div
-        {
-            padding: 0 5vw !important;
-        }
+        padding: 0 !important;
     }
     .heading
     {
@@ -92,6 +89,14 @@
     {
         grid-template-columns: 100%;
     }
+    //ABOUT SECTION
+    .aboutContent
+    {
+        ul 
+        {
+            padding: 0 !important;
+        }
+    }
     .testimonialText
     {
         h3 
@@ -125,10 +130,7 @@
     .hero
     {
         height: 75vh;
-        div
-        {
-            padding: 0 5vw !important;
-        }
+        padding: 0 !important;
     }
     .heading
     {
@@ -181,6 +183,13 @@
             }
         }
     }
+    .aboutContent
+    {
+        ul 
+        {
+            padding: 0 !important;
+        }
+    }
     #aboutMeSection
     {
         grid-template-columns: 100%;
@@ -218,10 +227,7 @@
     .hero
     {
         height: 75vh;
-        div
-        {
-            padding: 0 10vw !important;
-        }
+        padding: 0 !important;
     }
     a.heroButton
     {
