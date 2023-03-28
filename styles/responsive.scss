@@ -24,6 +24,10 @@
 // x-small devices (landscape phones, 575px and less)
 @media (max-width: 575px) 
 {
+    .brVisible
+    {
+        display: none;
+    }
     .logo 
     {
         width: 155px;
@@ -122,6 +126,10 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) 
 {
+    .brVisible
+    {
+        display: none;
+    }
     .logo 
     {
         width: 155px;
@@ -219,6 +227,10 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) 
 {
+    .brVisible
+    {
+        display: none;
+    }
     .logo 
     {
         width: 165px;
@@ -398,10 +410,28 @@
         width: 35px;
         height: 35px;
     }
+    .aboutContent
+    {
+        h1 
+        {
+            text-transform: capitalize;
+        }
+        ul
+        {
+            li
+            {
+                text-transform: capitalize;
+            }
+        }
+    }
 }
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) 
 {
+    .brVisible
+    {
+        display: block;
+    }
     .logo 
     {
         width: 220px;
@@ -471,9 +501,17 @@
     }
     .aboutContent
     {
+        h1 
+        {
+            text-transform: uppercase;
+        }
         ul 
         {
             padding: 4vh 2em !important;
+            li
+            {
+                text-transform: uppercase;
+            }
         }
     }
     .testimonialText

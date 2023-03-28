@@ -1,9 +1,9 @@
 //Imports
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap');
 //Brand Styles
-*
+html
 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
 }
 $green: #51563F;
 $brown-opcaity: #a7744670;
