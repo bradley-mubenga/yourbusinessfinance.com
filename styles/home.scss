@@ -71,7 +71,7 @@ input
     }
     ul 
     {
-        padding: 2vh 2em;
+        padding: 5vh 2em;
         list-style-type: none;
         text-align: left;
         //Try to see if you can make the width the same as the header text
@@ -92,7 +92,7 @@ input
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 2.5vh 10%;
+    padding: 2.5vh 10% 10vh 10%;
     grid-gap: 2vw;
     align-items: center;
     div
