@@ -26,7 +26,7 @@ export default function Contact() {
         </ul>
         <span></span>
         <div className='contactForm'>
-            <form action="/" method="post" className='contactSubmitForm'>
+            <form action="https://formsubmit.co/info@yourbusinessfinance.com" method="post" className='contactSubmitForm'>
                 <ul>
                     <li>Name *</li>
                 </ul>
