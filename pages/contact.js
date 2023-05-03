@@ -62,7 +62,7 @@ export default function Contact() {
                 <textarea id='message' rows={10}/>
                 <span></span>
                 <div>
-                    <a className='heroButton'>SUBMIT</a>
+                    <button className='submitButton' type="submit">SUBMIT</button>
                 </div>
             </form>
         </div>

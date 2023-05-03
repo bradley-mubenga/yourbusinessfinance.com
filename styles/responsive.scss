@@ -19,6 +19,15 @@
         }
     }
 }
+.submitButton
+{
+    padding: 2vh 2vw;
+    background-color: brand.$white;
+    color: brand.$green;
+    border: 0.100em solid brand.$green;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 
 // x-small devices (landscape phones, 575px and less)
@@ -122,6 +131,10 @@
         width: 25px;
         height: 25px;
     }
+    .copyrightText
+    {
+        text-align: center;
+    }
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) 
@@ -223,6 +236,10 @@
         width: 35px;
         height: 35px;
     }
+    .copyrightText
+    {
+        text-align: center;
+    }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) 
@@ -316,6 +333,10 @@
     {
         width: 35px;
         height: 35px;
+    }
+    .copyrightText
+    {
+        text-align: center;
     }
 }
 // Large devices (desktops, 992px and up)
