@@ -5,7 +5,7 @@ export default function About_Me() {
   return (
     <section id="aboutMeSection">
         <div>
-            <Image src="https://ik.imagekit.io/yrdximse9a/kickstart/jasmina_mcgowan.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1676032221634" className='responsiveImage' width={3995} height={3994}/>
+            <Image src="https://ik.imagekit.io/yrdximse9a/kickstart/jas_about_image.webp?updatedAt=1676032386270" className='responsiveImage' width={3995} height={3994}/>
         </div>
         <div>
             <h2 className='heading2'>Hi, great to meet you, <br className='brVisible'/> I’m Jasmina.</h2>
