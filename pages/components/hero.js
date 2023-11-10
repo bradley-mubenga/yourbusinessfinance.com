@@ -7,7 +7,7 @@ export default function Hero() {
         <div>
             <h1 className='heading'>KICKSTART YOUR BUSINESS FINANCES COURSE</h1>
             <div className='buttonBox'>
-              <a href="/contact" className='heroButton' type='button'>Contact us</a>
+              <a href="https://www.udemy.com/course/become-your-own-cfo/" className='heroButton' type='button' target='_blank'>Find out more</a>
             </div>
         </div>
     </section>
